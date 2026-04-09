@@ -1,0 +1,49 @@
+{
+  "_comment": "Wine ferrari recreation — FINAL per-shot config locked after iterative review.",
+  "_iterations": "v3 — 8 shots tuned individually based on shot-by-shot user feedback",
+  "default_motion_scale": 1.0,
+  "default_depth_intensity": 1.0,
+  "shots": {
+    "1": {
+      "motion_scale": 1.5,
+      "depth_intensity": 1.0,
+      "_note": "Side push-in. Pure zoom, parallax off. 1.5x = 5.25% zoom (more visible than 3.5% baseline)."
+    },
+    "2": {
+      "motion_scale": 1.0,
+      "depth_intensity": 1.0,
+      "_note": "Rear-3/4 yaw right. Smooth = baseline motion + no parallax. Wide shot, parallax looks unnatural here."
+    },
+    "3": {
+      "motion_scale": 1.5,
+      "depth_intensity": 4.0,
+      "_note": "Wing macro ECU. ONLY shot with strong parallax — large clean depth gradient. 1.5x motion + 4x perspective parallax sells the camera arc over the badge."
+    },
+    "4": {
+      "motion_scale": 1.0,
+      "depth_intensity": 1.0,
+      "ty": -14,
+      "_note": "Direct rear. ty -8 -> -14 (modest upward boost, ~75% more than baseline). NO parallax to keep wing rails razor-sharp. Slightly more upward feel without depth-cliff distortion."
+    },
+    "5": {
+      "motion_scale": 1.25,
+      "depth_intensity": 1.0,
+      "_note": "Direct front. Slightly exaggerated motion (1.25x) over baseline. No parallax. Pure zoom + tiny tilt up."
+    },
+    "6": {
+      "motion_scale": 1.0,
+      "depth_intensity": 1.0,
+      "_note": "Front bonnet detail. Smooth — baseline motion, no parallax. Earlier 'hybrid' was too much."
+    },
+    "7": {
+      "motion_scale": 1.0,
+      "depth_intensity": 1.0,
+      "_note": "Front-3/4 hero. Smooth — locked-off feel. Subtle 5px pan + tiny push, no parallax."
+    },
+    "8": {
+      "motion_scale": 1.0,
+      "depth_intensity": 1.0,
+      "_note": "Front wheel close-up. Smooth — already 22px pan at baseline (largest in video), no parallax to avoid wheel-edge artifacts."
+    }
+  }
+}

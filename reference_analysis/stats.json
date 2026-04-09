@@ -1,0 +1,257 @@
+{
+  "total_videos": 25,
+  "total_shots": 139,
+  "total_archetypes": 52,
+  "avg_shots_per_video": 5.56,
+  "avg_video_duration": 12.42,
+  "shot_duration_histogram": {
+    "min": 0.533,
+    "max": 11.0,
+    "mean": 2.234,
+    "p25": 1.583,
+    "p50": 1.833,
+    "p75": 2.35
+  },
+  "framing_distribution": {
+    "medium_3q": 42,
+    "wide_full_car": 35,
+    "tight_detail": 21,
+    "medium_side": 14,
+    "wheel_detail": 12,
+    "extreme_close_up": 7,
+    "low_hero": 3,
+    "top_down": 3,
+    "interior": 2
+  },
+  "environment_distribution": {
+    "studio_grey": 96,
+    "studio_black": 13,
+    "studio_white": 12,
+    "showroom": 7,
+    "outdoor_track": 6,
+    "themed_set": 4,
+    "unknown": 1
+  },
+  "color_family_distribution": {
+    "carbon_black": 48,
+    "candy_vivid": 33,
+    "wine": 30,
+    "dark_moody": 10,
+    "themed": 10,
+    "light_pastel": 8
+  },
+  "motion_tag_distribution": {
+    "static_arc": 44,
+    "unknown": 42,
+    "push_in": 16,
+    "orbit_right": 11,
+    "orbit_left": 10,
+    "tilt_up": 7,
+    "pull_back": 4,
+    "pan_left": 2,
+    "tilt_down": 2,
+    "pan_right": 1
+  },
+  "per_video_cadence": [
+    {
+      "video": "BMW M4 GT3 EVO.mp4",
+      "shot_count": 7,
+      "total_duration": 15.125,
+      "avg_shot_duration": 2.161,
+      "min_shot_duration": 1.75,
+      "max_shot_duration": 3.875
+    },
+    {
+      "video": "Batman Lamborghini Revuelto.mp4",
+      "shot_count": 6,
+      "total_duration": 13.367,
+      "avg_shot_duration": 2.228,
+      "min_shot_duration": 1.6,
+      "max_shot_duration": 3.1
+    },
+    {
+      "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+      "shot_count": 6,
+      "total_duration": 10.783,
+      "avg_shot_duration": 1.797,
+      "min_shot_duration": 1.083,
+      "max_shot_duration": 2.617
+    },
+    {
+      "video": "Blue Porsche GT3RS Manthey.mp4",
+      "shot_count": 5,
+      "total_duration": 11.25,
+      "avg_shot_duration": 2.25,
+      "min_shot_duration": 1.0,
+      "max_shot_duration": 3.5
+    },
+    {
+      "video": "Bugatti Chiron Pur Sport.mp4",
+      "shot_count": 2,
+      "total_duration": 13.167,
+      "avg_shot_duration": 6.583,
+      "min_shot_duration": 2.167,
+      "max_shot_duration": 11.0
+    },
+    {
+      "video": "Candy Aston Martin Vulcan (1).mp4",
+      "shot_count": 7,
+      "total_duration": 16.6,
+      "avg_shot_duration": 2.371,
+      "min_shot_duration": 1.668,
+      "max_shot_duration": 3.462
+    },
+    {
+      "video": "Candy Ferrari F40.mp4",
+      "shot_count": 6,
+      "total_duration": 15.95,
+      "avg_shot_duration": 2.658,
+      "min_shot_duration": 1.617,
+      "max_shot_duration": 4.75
+    },
+    {
+      "video": "Candy Honda NSX.mp4",
+      "shot_count": 6,
+      "total_duration": 9.283,
+      "avg_shot_duration": 1.547,
+      "min_shot_duration": 1.2,
+      "max_shot_duration": 1.833
+    },
+    {
+      "video": "Candy Lamborghini Revuelto.mp4",
+      "shot_count": 6,
+      "total_duration": 13.667,
+      "avg_shot_duration": 2.278,
+      "min_shot_duration": 1.683,
+      "max_shot_duration": 3.467
+    },
+    {
+      "video": "Candy McLaren P1.mp4",
+      "shot_count": 2,
+      "total_duration": 11.25,
+      "avg_shot_duration": 5.625,
+      "min_shot_duration": 2.833,
+      "max_shot_duration": 8.417
+    },
+    {
+      "video": "Candy Pagani Utopia.mp4",
+      "shot_count": 2,
+      "total_duration": 11.217,
+      "avg_shot_duration": 5.609,
+      "min_shot_duration": 1.717,
+      "max_shot_duration": 9.5
+    },
+    {
+      "video": "Candy RWB Porsche 911 964.mp4",
+      "shot_count": 7,
+      "total_duration": 13.805,
+      "avg_shot_duration": 1.972,
+      "min_shot_duration": 1.543,
+      "max_shot_duration": 3.42
+    },
+    {
+      "video": "Dark Yamaha R1.mp4",
+      "shot_count": 7,
+      "total_duration": 13.1,
+      "avg_shot_duration": 1.871,
+      "min_shot_duration": 0.867,
+      "max_shot_duration": 4.433
+    },
+    {
+      "video": "Demon Mazda RX-7.mp4",
+      "shot_count": 5,
+      "total_duration": 11.033,
+      "avg_shot_duration": 2.207,
+      "min_shot_duration": 1.217,
+      "max_shot_duration": 5.1
+    },
+    {
+      "video": "Full Carbon Ferrari 296 XX.mp4",
+      "shot_count": 7,
+      "total_duration": 13.138,
+      "avg_shot_duration": 1.877,
+      "min_shot_duration": 0.826,
+      "max_shot_duration": 2.272
+    },
+    {
+      "video": "Full Carbon McLaren 720S.mp4",
+      "shot_count": 3,
+      "total_duration": 9.133,
+      "avg_shot_duration": 3.044,
+      "min_shot_duration": 1.367,
+      "max_shot_duration": 4.633
+    },
+    {
+      "video": "Full Carbon Pagani Zonda R.mp4",
+      "shot_count": 9,
+      "total_duration": 13.0,
+      "avg_shot_duration": 1.444,
+      "min_shot_duration": 0.533,
+      "max_shot_duration": 4.533
+    },
+    {
+      "video": "Koenigsegg One1 GT.mp4",
+      "shot_count": 5,
+      "total_duration": 9.917,
+      "avg_shot_duration": 1.983,
+      "min_shot_duration": 1.283,
+      "max_shot_duration": 2.683
+    },
+    {
+      "video": "Olive Aston Martin Vulcan.mp4",
+      "shot_count": 7,
+      "total_duration": 13.667,
+      "avg_shot_duration": 1.952,
+      "min_shot_duration": 1.583,
+      "max_shot_duration": 3.292
+    },
+    {
+      "video": "Pagani Huayra.mp4",
+      "shot_count": 7,
+      "total_duration": 13.0,
+      "avg_shot_duration": 1.857,
+      "min_shot_duration": 1.067,
+      "max_shot_duration": 3.633
+    },
+    {
+      "video": "Porsche 918 Spyder.mp4",
+      "shot_count": 6,
+      "total_duration": 13.233,
+      "avg_shot_duration": 2.206,
+      "min_shot_duration": 1.05,
+      "max_shot_duration": 4.3
+    },
+    {
+      "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+      "shot_count": 6,
+      "total_duration": 11.017,
+      "avg_shot_duration": 1.836,
+      "min_shot_duration": 1.15,
+      "max_shot_duration": 2.567
+    },
+    {
+      "video": "Purple McLaren 720S765LT.mp4",
+      "shot_count": 4,
+      "total_duration": 9.133,
+      "avg_shot_duration": 2.284,
+      "min_shot_duration": 1.567,
+      "max_shot_duration": 3.667
+    },
+    {
+      "video": "Wine Ferrari LaFerrari.mp4",
+      "shot_count": 6,
+      "total_duration": 15.7,
+      "avg_shot_duration": 2.617,
+      "min_shot_duration": 1.483,
+      "max_shot_duration": 4.917
+    },
+    {
+      "video": "Wine Porsche Carrera GT.mp4",
+      "shot_count": 5,
+      "total_duration": 9.983,
+      "avg_shot_duration": 1.997,
+      "min_shot_duration": 1.017,
+      "max_shot_duration": 3.967
+    }
+  ]
+}

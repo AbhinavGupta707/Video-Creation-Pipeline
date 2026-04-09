@@ -1,0 +1,153 @@
+{
+  "_comment": "Wine Ferrari motion table — LOCKED GROUND TRUTH (verified by QuickTime frame-stepping + multi-method optical flow). Pixel magnitudes are in OUTPUT pixel coordinates at 1080w. Direction convention: positive_x = camera moves RIGHT, positive_y = camera moves DOWN, zoom_delta > 0 = push-in.",
+  "source_video": "videos/wine ferrari.mp4",
+  "source_resolution": [720, 1280],
+  "source_fps": 24.32,
+  "source_duration": 13.187,
+  "output_resolution": [1080, 1920],
+  "output_fps": 24,
+  "ai_still_resolution": [2160, 3840],
+  "shots": [
+    {
+      "id": 1,
+      "start": 0.000,
+      "end": 2.262,
+      "duration": 2.262,
+      "frame_count": 54,
+      "subject": "Side profile, full car",
+      "camera_position": "9:00 (camera-left side), mid-body height",
+      "motion": {
+        "type": "push-in (zoom)",
+        "tx_px_1080": 0,
+        "ty_px_1080": 0,
+        "zoom_start": 1.000,
+        "zoom_end": 1.035
+      },
+      "purpose": "Establishing shot — sets aesthetic, scale, and lighting"
+    },
+    {
+      "id": 2,
+      "start": 2.262,
+      "end": 4.523,
+      "duration": 2.261,
+      "frame_count": 54,
+      "subject": "Rear-left 3/4, full car",
+      "camera_position": "7:30, wing height",
+      "motion": {
+        "type": "yaw right (camera rotates right) + slight pull-back",
+        "tx_px_1080": 15,
+        "ty_px_1080": 0,
+        "zoom_start": 1.030,
+        "zoom_end": 1.000
+      },
+      "purpose": "Aero hero — reveals wing and widebody stance"
+    },
+    {
+      "id": 3,
+      "start": 4.523,
+      "end": 6.702,
+      "duration": 2.179,
+      "frame_count": 52,
+      "subject": "Wing badge ECU (Ferrari prancing horse on wing endplate)",
+      "camera_position": "Very close behind wing, wing-level",
+      "motion": {
+        "type": "pan right + slight tilt up (upward arc over wing)",
+        "tx_px_1080": 12,
+        "ty_px_1080": -5,
+        "zoom_start": 1.000,
+        "zoom_end": 1.019
+      },
+      "purpose": "Brand/craftsmanship beat"
+    },
+    {
+      "id": 4,
+      "start": 6.702,
+      "end": 8.882,
+      "duration": 2.180,
+      "frame_count": 52,
+      "subject": "Direct rear, full car",
+      "camera_position": "6:00 (dead center behind), low/bumper-level",
+      "motion": {
+        "type": "tilt up (camera rises/tilts upward)",
+        "tx_px_1080": 0,
+        "ty_px_1080": -8,
+        "zoom_start": 1.000,
+        "zoom_end": 1.005
+      },
+      "purpose": "Symmetry payoff — rear half closer"
+    },
+    {
+      "id": 5,
+      "start": 8.882,
+      "end": 9.786,
+      "duration": 0.904,
+      "frame_count": 22,
+      "subject": "Direct front, full car",
+      "camera_position": "12:00 (dead center in front), hood-level",
+      "motion": {
+        "type": "slight tilt up + tiny push-in",
+        "tx_px_1080": 0,
+        "ty_px_1080": -3,
+        "zoom_start": 1.000,
+        "zoom_end": 1.006
+      },
+      "purpose": "Symmetry mirror of shot 4 — front-rear A/B rhyme"
+    },
+    {
+      "id": 6,
+      "start": 9.786,
+      "end": 10.938,
+      "duration": 1.152,
+      "frame_count": 28,
+      "subject": "Front hood/bonnet detail (high angle, fender + badge + hood vent + windshield base)",
+      "camera_position": "Front-right of car, slightly above hood, looking down",
+      "motion": {
+        "type": "pan right + slight downward + push-in",
+        "tx_px_1080": 12,
+        "ty_px_1080": 5,
+        "zoom_start": 1.000,
+        "zoom_end": 1.011
+      },
+      "purpose": "Detail tease — opens the front-of-car chapter"
+    },
+    {
+      "id": 7,
+      "start": 10.938,
+      "end": 12.007,
+      "duration": 1.069,
+      "frame_count": 26,
+      "subject": "Front-left 3/4, full car (HERO REVEAL)",
+      "camera_position": "10:00, hood-height",
+      "motion": {
+        "type": "subtle pan right + slight push-in",
+        "tx_px_1080": 5,
+        "ty_px_1080": 0,
+        "zoom_start": 1.000,
+        "zoom_end": 1.013
+      },
+      "purpose": "HERO — climactic 'look at the whole car' beat"
+    },
+    {
+      "id": 8,
+      "start": 12.007,
+      "end": 13.188,
+      "duration": 1.181,
+      "frame_count": 28,
+      "subject": "Front-left wheel close-up (low angle, wheel + fender + splitter + side mirror)",
+      "camera_position": "Low ground-level, front-left, tight on wheel",
+      "motion": {
+        "type": "pan left + slight tilt up + push-in",
+        "tx_px_1080": -22,
+        "ty_px_1080": -6,
+        "zoom_start": 1.000,
+        "zoom_end": 1.025
+      },
+      "purpose": "Outro detail — closes film with reverse-direction release"
+    }
+  ],
+  "edit_pattern": {
+    "cadence": "First 4 shots ~2.2s (slow), last 4 shots ~1.05s (punchy) — film accelerates",
+    "directional_arc": "5 shots move camera right (1 push-in counts as 'into'), 1 left (shot 8 release), 4 tilt up — overall rightward + upward 'lift' feeling",
+    "structural_match_cuts": "Shot 4 (dead rear) → Shot 5 (dead front) is the editorial anchor"
+  }
+}

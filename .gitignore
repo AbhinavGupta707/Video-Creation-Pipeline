@@ -1,0 +1,47 @@
+# Reference videos (large binaries)
+videos/
+
+# Python virtual environments
+.venv/
+.venv-audio/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Benchmark outputs (regeneratable)
+benchmark_out/
+
+# Extracted frames (regeneratable from videos)
+wine_ferrari_frames/
+shots_analysis/
+
+# Re-encoded videos
+videos_h264/
+
+# Reference analysis bulk data (regeneratable)
+reference_analysis/thumbnails/
+reference_analysis/per_video/
+
+# Pipeline bulk outputs (regeneratable)
+pipeline/batch_out/
+pipeline/depth_maps/
+pipeline/batman_lambo/
+pipeline/benchmark/
+pipeline/_archive/
+pipeline/__pycache__/
+pipeline/test_clips_tuned/
+pipeline/test_clips_smooth/
+pipeline/test_clips/
+pipeline/*.mp4
+
+# Reference analysis thumbnails (regeneratable)
+reference_analysis/thumbs/
+
+# Rendered outputs (regeneratable)
+out/
+
+# Temporary files
+/tmp/
+*.tmp

@@ -1,0 +1,2520 @@
+{
+  "_comment": "Shot vocabulary built from 25 reference videos (Phase A). Archetypes grouped by (framing, camera_position_coarse). Use source_refs to trace back to example frames.",
+  "archetypes": [
+    {
+      "id": "medium_3q__front_right_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_right_mid",
+      "instance_count": 15,
+      "duration_min": 1.15,
+      "duration_max": 8.417,
+      "duration_avg": 2.51,
+      "motion_tag_distribution": {
+        "static_arc": 8,
+        "unknown": 3,
+        "orbit_right": 2,
+        "orbit_left": 2
+      },
+      "environment_distribution": {
+        "studio_grey": 9,
+        "studio_white": 2,
+        "outdoor_track": 1,
+        "studio_black": 1,
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "dramatic and cinematic": 1,
+        "refined yet aggressive": 1,
+        "track-ready stance showcase": 1,
+        "Aggressive front stance": 1,
+        "elegant and refined": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 5,
+        "candy_vivid": 4,
+        "wine": 2,
+        "themed": 2,
+        "dark_moody": 1
+      },
+      "lighting_examples": [
+        "storm clouds with rim highlights",
+        "side spotlight with front accent",
+        "side fill light"
+      ],
+      "subject_examples": [
+        "Revuelto three-quarter profile",
+        "Corvette three-quarter front",
+        "3/4 profile race trim"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot02.jpg",
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot05.jpg",
+        "reference_analysis/thumbs/Blue Porsche GT3RS Manthey/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Blue Porsche GT3RS Manthey.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Candy McLaren P1.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Koenigsegg One1 GT.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__front_right_mid",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "front_right_mid",
+      "instance_count": 12,
+      "duration_min": 1.333,
+      "duration_max": 5.1,
+      "duration_avg": 2.325,
+      "motion_tag_distribution": {
+        "static_arc": 8,
+        "orbit_right": 2,
+        "pull_back": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 11,
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "Aggressive elegance": 1,
+        "Elegant profile showcase": 1,
+        "Sleek, premium showcase": 1,
+        "elegant showcase of candy paint": 1,
+        "final glamour reveal": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 4,
+        "carbon_black": 3,
+        "wine": 2,
+        "themed": 2,
+        "dark_moody": 1
+      },
+      "lighting_examples": [
+        "Flat diffused with accent lights",
+        "Soft lateral studio light",
+        "Soft directional studio light, car edges highlighted"
+      ],
+      "subject_examples": [
+        "Full car side profile",
+        "Three-quarter front view with wing",
+        "RWB 964 full car reveal"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot03.jpg",
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot01.jpg",
+        "reference_analysis/thumbs/Candy Lamborghini Revuelto/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Demon Mazda RX-7.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Purple McLaren 720S765LT.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Wine Porsche Carrera GT.mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__rear_mid",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "rear_mid",
+      "instance_count": 8,
+      "duration_min": 1.633,
+      "duration_max": 4.633,
+      "duration_avg": 2.689,
+      "motion_tag_distribution": {
+        "push_in": 3,
+        "static_arc": 2,
+        "pull_back": 1,
+        "orbit_left": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 5,
+        "outdoor_track": 1,
+        "studio_black": 1,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "menacing and sculptural": 1,
+        "imposing and muscular": 1,
+        "performance showcase": 1,
+        "aggressive, mechanical": 1,
+        "futuristic showcase": 1
+      },
+      "color_family_distribution": {
+        "wine": 4,
+        "carbon_black": 3,
+        "dark_moody": 1
+      },
+      "lighting_examples": [
+        "rear lighting with red accent",
+        "rear directional with taillamp emphasis",
+        "frontal key light"
+      ],
+      "subject_examples": [
+        "Revuelto full rear view",
+        "Corvette full rear view",
+        "rear view with wing and diffuser"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot03.jpg",
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot03.jpg",
+        "reference_analysis/thumbs/Full Carbon McLaren 720S/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Full Carbon McLaren 720S.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Koenigsegg One1 GT.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Wine Porsche Carrera GT.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__front_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_mid",
+      "instance_count": 7,
+      "duration_min": 1.417,
+      "duration_max": 4.917,
+      "duration_avg": 2.553,
+      "motion_tag_distribution": {
+        "unknown": 3,
+        "orbit_right": 2,
+        "orbit_left": 1,
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 6,
+        "outdoor_track": 1
+      },
+      "mood_distribution": {
+        "aggressive and refined": 1,
+        "Dynamic perspective": 1,
+        "frontal car portrait": 1,
+        "aggressive stance": 1,
+        "mechanical precision": 1
+      },
+      "color_family_distribution": {
+        "dark_moody": 2,
+        "carbon_black": 2,
+        "wine": 2,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "front spotlight with headlight detail",
+        "Balanced corner light",
+        "frontal soft light"
+      ],
+      "subject_examples": [
+        "Revuelto front three-quarter",
+        "Angled 3/4 view",
+        "3/4 front facade"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot05.jpg",
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot04.jpg",
+        "reference_analysis/thumbs/Candy RWB Porsche 911 964/shot04.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Wine Porsche Carrera GT.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "medium_side__front_right_mid",
+      "framing": "medium_side",
+      "camera_position_coarse": "front_right_mid",
+      "instance_count": 6,
+      "duration_min": 1.0,
+      "duration_max": 2.733,
+      "duration_avg": 1.839,
+      "motion_tag_distribution": {
+        "static_arc": 3,
+        "pan_right": 1,
+        "push_in": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "outdoor_track": 2,
+        "studio_grey": 2,
+        "studio_black": 1,
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "moody and ominous": 1,
+        "sculptural and dramatic": 1,
+        "sinister and sleek": 1,
+        "Technical design showcase": 1,
+        "sleek and menacing": 1
+      },
+      "color_family_distribution": {
+        "dark_moody": 3,
+        "carbon_black": 2,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "overcast with dramatic cloud backdrop",
+        "side-lit with overcast ambient",
+        "side rim lighting with undercar glow"
+      ],
+      "subject_examples": [
+        "Lamborghini Revuelto side profile",
+        "Revuelto side detail pan",
+        "Corvette C7 side profile"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot01.jpg",
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot06.jpg",
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__rear_mid",
+      "framing": "tight_detail",
+      "camera_position_coarse": "rear_mid",
+      "instance_count": 6,
+      "duration_min": 0.733,
+      "duration_max": 2.617,
+      "duration_avg": 1.4,
+      "motion_tag_distribution": {
+        "unknown": 3,
+        "push_in": 2,
+        "pan_left": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 5,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "technical precision": 2,
+        "Sculptural form": 1,
+        "material showcase": 1,
+        "technical beauty": 1,
+        "aerodynamic showcase": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 4,
+        "candy_vivid": 2
+      },
+      "lighting_examples": [
+        "side-lit with red brake light accent",
+        "directional with taillamp highlights",
+        "Grazing side light"
+      ],
+      "subject_examples": [
+        "Corvette rear quarter detail",
+        "NSX rear end detail",
+        "Rear deck and wing detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot06.jpg",
+        "reference_analysis/thumbs/Candy Honda NSX/shot06.jpg",
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot07.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__front_right_mid",
+      "framing": "tight_detail",
+      "camera_position_coarse": "front_right_mid",
+      "instance_count": 5,
+      "duration_min": 1.0,
+      "duration_max": 2.617,
+      "duration_avg": 1.874,
+      "motion_tag_distribution": {
+        "unknown": 3,
+        "orbit_right": 1,
+        "tilt_up": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 4,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "Performance focused": 1,
+        "final engineering detail reveal": 1,
+        "architectural focus on geometry": 1,
+        "performance detail emphasis": 1,
+        "refined material showcas": 1
+      },
+      "color_family_distribution": {
+        "wine": 2,
+        "carbon_black": 1,
+        "light_pastel": 1,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "Hard side lighting, carbon weave texture",
+        "key light on rim and wing",
+        "angled fill light on body"
+      ],
+      "subject_examples": [
+        "Rear quarter wheel detail",
+        "Rear wheel close detail",
+        "Rear quarter wheel and wing"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot02.jpg",
+        "reference_analysis/thumbs/Blue Porsche GT3RS Manthey/shot05.jpg",
+        "reference_analysis/thumbs/Candy RWB Porsche 911 964/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Blue Porsche GT3RS Manthey.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Wine Porsche Carrera GT.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__rear_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "rear_mid",
+      "instance_count": 5,
+      "duration_min": 1.583,
+      "duration_max": 3.875,
+      "duration_avg": 3.169,
+      "motion_tag_distribution": {
+        "static_arc": 3,
+        "pull_back": 1,
+        "orbit_right": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 4,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "Powerful statement": 1,
+        "performance showcase with tension": 1,
+        "Aggressive stance reveal": 1,
+        "dramatic rear presentation": 1,
+        "Rear emphasis": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 2,
+        "carbon_black": 1,
+        "light_pastel": 1,
+        "themed": 1
+      },
+      "lighting_examples": [
+        "Theatrical backlit with accent",
+        "gradient sky light soft blue backdrop",
+        "Balanced three-quarter lighting"
+      ],
+      "subject_examples": [
+        "Rear end hero shot",
+        "GT3RS Manthey rear 3/4 reveal",
+        "Rear 3/4 view"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot07.jpg",
+        "reference_analysis/thumbs/Blue Porsche GT3RS Manthey/shot01.jpg",
+        "reference_analysis/thumbs/Candy Lamborghini Revuelto/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Blue Porsche GT3RS Manthey.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__front_right_mid",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "front_right_mid",
+      "instance_count": 5,
+      "duration_min": 0.533,
+      "duration_max": 1.8,
+      "duration_avg": 1.254,
+      "motion_tag_distribution": {
+        "unknown": 4,
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 5
+      },
+      "mood_distribution": {
+        "Engineering highlight": 1,
+        "technical and precise": 1,
+        "technical precision": 1,
+        "engineering focus": 1,
+        "Engineering precision": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 3,
+        "candy_vivid": 1,
+        "themed": 1
+      },
+      "lighting_examples": [
+        "Cross light on wheel and body",
+        "side-lit with red wheel accent",
+        "soft detail lighting"
+      ],
+      "subject_examples": [
+        "Wheel and side panel detail",
+        "NSX rear quarter wheel detail",
+        "wheel and side duct detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot05.jpg",
+        "reference_analysis/thumbs/Candy Honda NSX/shot03.jpg",
+        "reference_analysis/thumbs/Full Carbon Pagani Zonda R/shot07.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 8
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "medium_side__left_mid",
+      "framing": "medium_side",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 4,
+      "duration_min": 1.483,
+      "duration_max": 2.272,
+      "duration_avg": 1.818,
+      "motion_tag_distribution": {
+        "static_arc": 4
+      },
+      "environment_distribution": {
+        "studio_grey": 4
+      },
+      "mood_distribution": {
+        "Technical, sleek sophistication": 1,
+        "Sleek street legend": 1,
+        "Exotic invitation": 1,
+        "elegant luxury showcasing": 1
+      },
+      "color_family_distribution": {
+        "wine": 2,
+        "carbon_black": 1,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "Soft rim lighting, moody dramatic",
+        "Soft wraparound studio",
+        "Smooth graduated side lighting"
+      ],
+      "subject_examples": [
+        "Full car profile silhouette",
+        "Side profile purple RX-7",
+        "Side profile with door open"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot01.jpg",
+        "reference_analysis/thumbs/Demon Mazda RX-7/shot01.jpg",
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Demon Mazda RX-7.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__rear_left_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "rear_left_mid",
+      "instance_count": 4,
+      "duration_min": 1.083,
+      "duration_max": 2.317,
+      "duration_avg": 1.638,
+      "motion_tag_distribution": {
+        "orbit_left": 2,
+        "orbit_right": 1,
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 3,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "Mechanical artistry": 1,
+        "aggressive stance": 1,
+        "technical detail focus": 1,
+        "sporty and composed": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 2,
+        "candy_vivid": 2
+      },
+      "lighting_examples": [
+        "Side-lit carbon weave texture",
+        "accent light on rear, tail lamp glow",
+        "directional accent on wheel rim"
+      ],
+      "subject_examples": [
+        "Rear quarter with wing detail",
+        "Corvette rear three-quarter",
+        "Rear quarter wheel and side panel"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot04.jpg",
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot02.jpg",
+        "reference_analysis/thumbs/Candy Ferrari F40/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__front_mid",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "front_mid",
+      "instance_count": 4,
+      "duration_min": 2.148,
+      "duration_max": 3.383,
+      "duration_avg": 2.525,
+      "motion_tag_distribution": {
+        "static_arc": 4
+      },
+      "environment_distribution": {
+        "studio_grey": 3,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "menacing race car confrontation": 1,
+        "Dominant elegance": 1,
+        "commanding, showcase": 1,
+        "confrontational, powerful": 1
+      },
+      "color_family_distribution": {
+        "wine": 2,
+        "light_pastel": 1,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "centered frontal light",
+        "Frontal fill with sculpted shadows",
+        "soft frontal studio lighting"
+      ],
+      "subject_examples": [
+        "Front face aggressive stance",
+        "Front end hero shot",
+        "full car front view"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Blue Porsche GT3RS Manthey/shot02.jpg",
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot04.jpg",
+        "reference_analysis/thumbs/Koenigsegg One1 GT/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Blue Porsche GT3RS Manthey.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Koenigsegg One1 GT.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Purple McLaren 720S765LT.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "low_hero__front_low",
+      "framing": "low_hero",
+      "camera_position_coarse": "front_low",
+      "instance_count": 3,
+      "duration_min": 1.617,
+      "duration_max": 2.2,
+      "duration_avg": 1.883,
+      "motion_tag_distribution": {
+        "tilt_up": 2,
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "outdoor_track": 1,
+        "studio_black": 1,
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "powerful and imposing": 1,
+        "menacing and powerful": 1,
+        "aggressive and commanding": 1
+      },
+      "color_family_distribution": {
+        "dark_moody": 1,
+        "carbon_black": 1,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "front-angle with headlight glow",
+        "dramatic front-angle rim lighting",
+        "dramatic low-angle rim lighting"
+      ],
+      "subject_examples": [
+        "Revuelto front end hero",
+        "Corvette front end hero",
+        "NSX front end hero shot"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Batman Lamborghini Revuelto/shot04.jpg",
+        "reference_analysis/thumbs/Blacked-Out Chevrolet Corvette C7/shot04.jpg",
+        "reference_analysis/thumbs/Candy Honda NSX/shot04.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Batman Lamborghini Revuelto.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Blacked-Out Chevrolet Corvette C7.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Candy Honda NSX.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__rear_low",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "rear_low",
+      "instance_count": 3,
+      "duration_min": 2.267,
+      "duration_max": 11.0,
+      "duration_avg": 7.589,
+      "motion_tag_distribution": {
+        "unknown": 1,
+        "orbit_left": 1,
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 2,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "menacing dark": 1,
+        "futuristic showcase": 1,
+        "dramatic power": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 2,
+        "themed": 1
+      },
+      "lighting_examples": [
+        "rim backlight dark bg",
+        "studio even, accent on canopy",
+        "dramatic backlight on tails, dark surround"
+      ],
+      "subject_examples": [
+        "rear 3/4 full car with wing deployed",
+        "Rear view full car with open canopy",
+        "Rear view full car with lit taillights"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Bugatti Chiron Pur Sport/shot01.jpg",
+        "reference_analysis/thumbs/Candy Pagani Utopia/shot02.jpg",
+        "reference_analysis/thumbs/Porsche 918 Spyder/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Bugatti Chiron Pur Sport.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Candy Pagani Utopia.mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "extreme_close_up__rear_low",
+      "framing": "extreme_close_up",
+      "camera_position_coarse": "rear_low",
+      "instance_count": 3,
+      "duration_min": 0.867,
+      "duration_max": 2.794,
+      "duration_avg": 1.79,
+      "motion_tag_distribution": {
+        "unknown": 2,
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 2,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "Technical precision showcase": 1,
+        "mechanical focus": 1,
+        "Aerodynamic detail showcase": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 2,
+        "themed": 1
+      },
+      "lighting_examples": [
+        "Dramatic underside lighting",
+        "low angle edge light",
+        "Dramatic underside illumination"
+      ],
+      "subject_examples": [
+        "Splitter and diffuser extreme close",
+        "Yamaha R1 rear exhaust detail",
+        "Splitter and diffuser macro"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot07.jpg",
+        "reference_analysis/thumbs/Dark Yamaha R1/shot06.jpg",
+        "reference_analysis/thumbs/Olive Aston Martin Vulcan/shot07.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 7
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__rear_low",
+      "framing": "medium_3q",
+      "camera_position_coarse": "rear_low",
+      "instance_count": 3,
+      "duration_min": 1.017,
+      "duration_max": 2.533,
+      "duration_avg": 1.941,
+      "motion_tag_distribution": {
+        "static_arc": 1,
+        "tilt_up": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 3
+      },
+      "mood_distribution": {
+        "power and presence": 1,
+        "Mechanical art": 1,
+        "dramatic interior access reveal": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 2,
+        "wine": 1
+      },
+      "lighting_examples": [
+        "even studio with accent",
+        "Upward rim lighting",
+        "overhead fill with body highlight"
+      ],
+      "subject_examples": [
+        "Rear end full view with taillights",
+        "Rear diffuser low angle",
+        "Rear 3/4 with door open"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Ferrari F40/shot05.jpg",
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot06.jpg",
+        "reference_analysis/thumbs/Wine Porsche Carrera GT/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Wine Porsche Carrera GT.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__left_low",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "left_low",
+      "instance_count": 3,
+      "duration_min": 1.067,
+      "duration_max": 1.717,
+      "duration_avg": 1.306,
+      "motion_tag_distribution": {
+        "unknown": 2,
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1,
+        "showroom": 1,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "elegant simplicity": 1,
+        "luxury gallery ambiance": 1,
+        "sleek performance": 1
+      },
+      "color_family_distribution": {
+        "light_pastel": 2,
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "even key light with rim highlight",
+        "soft ambient ceiling glow",
+        "rim accent, dark background"
+      ],
+      "subject_examples": [
+        "Full car side profile view",
+        "interior curved ceiling and living space",
+        "Full car side profile with roof open"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Pagani Utopia/shot01.jpg",
+        "reference_analysis/thumbs/Pagani Huayra/shot01.jpg",
+        "reference_analysis/thumbs/Porsche 918 Spyder/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Pagani Utopia.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "top_down__front_high",
+      "framing": "top_down",
+      "camera_position_coarse": "front_high",
+      "instance_count": 3,
+      "duration_min": 1.4,
+      "duration_max": 1.933,
+      "duration_avg": 1.672,
+      "motion_tag_distribution": {
+        "tilt_up": 1,
+        "static_arc": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 2,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "design showcase": 1,
+        "symmetric design study": 1,
+        "geometric, modern": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 2,
+        "wine": 1
+      },
+      "lighting_examples": [
+        "subtle overhead ambient",
+        "even studio top light",
+        "diffuse overhead lighting"
+      ],
+      "subject_examples": [
+        "Yamaha R1 rear top-down view",
+        "Yamaha R1 rear centered top view",
+        "overhead top-down car view"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Dark Yamaha R1/shot05.jpg",
+        "reference_analysis/thumbs/Dark Yamaha R1/shot07.jpg",
+        "reference_analysis/thumbs/Purple McLaren 720S765LT/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 7
+        },
+        {
+          "video": "Purple McLaren 720S765LT.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__front_low",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_low",
+      "instance_count": 2,
+      "duration_min": 1.267,
+      "duration_max": 1.917,
+      "duration_avg": 1.592,
+      "motion_tag_distribution": {
+        "push_in": 1,
+        "tilt_up": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 2
+      },
+      "mood_distribution": {
+        "Menacing focus": 1,
+        "Muscular expression": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1,
+        "wine": 1
+      },
+      "lighting_examples": [
+        "Front fill with bright highlights",
+        "Sculptural frontal highlight"
+      ],
+      "subject_examples": [
+        "Front end facing camera",
+        "Front end low angle detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot05.jpg",
+        "reference_analysis/thumbs/Demon Mazda RX-7/shot04.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 5
+        },
+        {
+          "video": "Demon Mazda RX-7.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__front_right_low",
+      "framing": "tight_detail",
+      "camera_position_coarse": "front_right_low",
+      "instance_count": 2,
+      "duration_min": 1.617,
+      "duration_max": 1.71,
+      "duration_avg": 1.663,
+      "motion_tag_distribution": {
+        "unknown": 2
+      },
+      "environment_distribution": {
+        "studio_white": 1,
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "technical aero component focus": 1,
+        "technical focus on fabrication": 1
+      },
+      "color_family_distribution": {
+        "light_pastel": 1,
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "angled side light on wheel",
+        "bright with rim highlight"
+      ],
+      "subject_examples": [
+        "Rear wheel with wing detail",
+        "Front wheel detail with fender"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Blue Porsche GT3RS Manthey/shot04.jpg",
+        "reference_analysis/thumbs/Candy RWB Porsche 911 964/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Blue Porsche GT3RS Manthey.mp4",
+          "shot_id": 4
+        },
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__rear_high",
+      "framing": "tight_detail",
+      "camera_position_coarse": "rear_high",
+      "instance_count": 2,
+      "duration_min": 1.668,
+      "duration_max": 1.875,
+      "duration_avg": 1.772,
+      "motion_tag_distribution": {
+        "unknown": 2
+      },
+      "environment_distribution": {
+        "studio_grey": 2
+      },
+      "mood_distribution": {
+        "Aerodynamic design focus": 1,
+        "Design complexity focus": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1,
+        "themed": 1
+      },
+      "lighting_examples": [
+        "Raking light on rear surfaces",
+        "Raking light on rear aerodynamics"
+      ],
+      "subject_examples": [
+        "Rear wing and tail section",
+        "Rear diffuser and wing detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot02.jpg",
+        "reference_analysis/thumbs/Olive Aston Martin Vulcan/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 2
+        },
+        {
+          "video": "Olive Aston Martin Vulcan.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__front_right_low",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "front_right_low",
+      "instance_count": 2,
+      "duration_min": 1.367,
+      "duration_max": 1.752,
+      "duration_avg": 1.559,
+      "motion_tag_distribution": {
+        "unknown": 1,
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1,
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "Aerodynamic engineering focus": 1,
+        "technical, detailed": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 2
+      },
+      "lighting_examples": [
+        "Low raking light",
+        "directional side light on tire"
+      ],
+      "subject_examples": [
+        "Rear wheel detail with splitter",
+        "wheel and tire detail shot"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Aston Martin Vulcan (1)/shot06.jpg",
+        "reference_analysis/thumbs/Full Carbon McLaren 720S/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Aston Martin Vulcan (1).mp4",
+          "shot_id": 6
+        },
+        {
+          "video": "Full Carbon McLaren 720S.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__rear_left_low",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "rear_left_low",
+      "instance_count": 2,
+      "duration_min": 1.9,
+      "duration_max": 2.19,
+      "duration_avg": 2.045,
+      "motion_tag_distribution": {
+        "orbit_left": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 2
+      },
+      "mood_distribution": {
+        "Technical showcasing": 1,
+        "technical detail focus": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1,
+        "wine": 1
+      },
+      "lighting_examples": [
+        "Dramatic side rim lighting",
+        "side lighting with pink studio ambiance"
+      ],
+      "subject_examples": [
+        "Wheel and suspension detail",
+        "Front quarter wheel detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot03.jpg",
+        "reference_analysis/thumbs/Wine Ferrari LaFerrari/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 3
+        },
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__left_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 2,
+      "duration_min": 1.05,
+      "duration_max": 2.683,
+      "duration_avg": 1.866,
+      "motion_tag_distribution": {
+        "static_arc": 1,
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1,
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "elegant, dramatic reveal": 1,
+        "technical profile": 1
+      },
+      "color_family_distribution": {
+        "wine": 1,
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "soft overcast studio",
+        "subtle rim highlight"
+      ],
+      "subject_examples": [
+        "full car with open gull wing door",
+        "Profile view car and tail detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Koenigsegg One1 GT/shot01.jpg",
+        "reference_analysis/thumbs/Porsche 918 Spyder/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Koenigsegg One1 GT.mp4",
+          "shot_id": 1
+        },
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "medium_side__rear_left_mid",
+      "framing": "medium_side",
+      "camera_position_coarse": "rear_left_mid",
+      "instance_count": 1,
+      "duration_min": 1.75,
+      "duration_max": 1.75,
+      "duration_avg": 1.75,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "Poised precision": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "Directional rim light on hood"
+      ],
+      "subject_examples": [
+        "Driver side front quarter"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/BMW M4 GT3 EVO/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "BMW M4 GT3 EVO.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__left_low",
+      "framing": "tight_detail",
+      "camera_position_coarse": "left_low",
+      "instance_count": 1,
+      "duration_min": 2.167,
+      "duration_max": 2.167,
+      "duration_avg": 2.167,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "premium restrained": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "single top key soft"
+      ],
+      "subject_examples": [
+        "front-left wheel and lower body detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Bugatti Chiron Pur Sport/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Bugatti Chiron Pur Sport.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__front_left_low",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "front_left_low",
+      "instance_count": 1,
+      "duration_min": 1.617,
+      "duration_max": 1.617,
+      "duration_avg": 1.617,
+      "motion_tag_distribution": {
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "sleek elegant presentation": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "even key light, soft shadows"
+      ],
+      "subject_examples": [
+        "Full car three-quarter view"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Ferrari F40/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__rear_left_low",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "rear_left_low",
+      "instance_count": 1,
+      "duration_min": 4.75,
+      "duration_max": 4.75,
+      "duration_avg": 4.75,
+      "motion_tag_distribution": {
+        "orbit_left": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "dramatic showcase": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "even studio light"
+      ],
+      "subject_examples": [
+        "Full car three-quarter rear with open door"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Ferrari F40/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "extreme_close_up__rear_mid",
+      "framing": "extreme_close_up",
+      "camera_position_coarse": "rear_mid",
+      "instance_count": 1,
+      "duration_min": 2.683,
+      "duration_max": 2.683,
+      "duration_avg": 2.683,
+      "motion_tag_distribution": {
+        "tilt_up": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "technical precision": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "directional side accent"
+      ],
+      "subject_examples": [
+        "Rear wing and tail section extreme detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Ferrari F40/shot04.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__left_mid",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 1,
+      "duration_min": 2.05,
+      "duration_max": 2.05,
+      "duration_avg": 2.05,
+      "motion_tag_distribution": {
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "technical showcase": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "rim highlight, soft body light"
+      ],
+      "subject_examples": [
+        "Front wheel and side panel detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Ferrari F40/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Ferrari F40.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__front_right_high",
+      "framing": "tight_detail",
+      "camera_position_coarse": "front_right_high",
+      "instance_count": 1,
+      "duration_min": 1.733,
+      "duration_max": 1.733,
+      "duration_avg": 1.733,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "Sculptural design focus": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "Raking light emphasizing contours"
+      ],
+      "subject_examples": [
+        "Front headlight and hood detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Lamborghini Revuelto/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "interior__front_mid",
+      "framing": "interior",
+      "camera_position_coarse": "front_mid",
+      "instance_count": 1,
+      "duration_min": 3.283,
+      "duration_max": 3.283,
+      "duration_avg": 3.283,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "unknown": 1
+      },
+      "mood_distribution": {
+        "Driver experience focus": 1
+      },
+      "color_family_distribution": {
+        "themed": 1
+      },
+      "lighting_examples": [
+        "Moody directional interior lighting"
+      ],
+      "subject_examples": [
+        "Cockpit interior"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy Lamborghini Revuelto/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy Lamborghini Revuelto.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__left_mid",
+      "framing": "tight_detail",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 1,
+      "duration_min": 2.833,
+      "duration_max": 2.833,
+      "duration_avg": 2.833,
+      "motion_tag_distribution": {
+        "tilt_down": 1
+      },
+      "environment_distribution": {
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "modern, premium": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "blue accent lighting on interior"
+      ],
+      "subject_examples": [
+        "interior cabin with steering wheel"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy McLaren P1/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy McLaren P1.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "extreme_close_up__front_right_high",
+      "framing": "extreme_close_up",
+      "camera_position_coarse": "front_right_high",
+      "instance_count": 1,
+      "duration_min": 1.919,
+      "duration_max": 1.919,
+      "duration_avg": 1.919,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "intricate detail showcase": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "angled key light on dome"
+      ],
+      "subject_examples": [
+        "Front fascia and headlight"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Candy RWB Porsche 911 964/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Candy RWB Porsche 911 964.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__front_mid",
+      "framing": "tight_detail",
+      "camera_position_coarse": "front_mid",
+      "instance_count": 1,
+      "duration_min": 2.133,
+      "duration_max": 2.133,
+      "duration_avg": 2.133,
+      "motion_tag_distribution": {
+        "tilt_down": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "technical focus": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "overhead studio accent"
+      ],
+      "subject_examples": [
+        "Yamaha R1 front end detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Dark Yamaha R1/shot04.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Dark Yamaha R1.mp4",
+          "shot_id": 4
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__front_right_high",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "front_right_high",
+      "instance_count": 1,
+      "duration_min": 1.217,
+      "duration_max": 1.217,
+      "duration_avg": 1.217,
+      "motion_tag_distribution": {
+        "orbit_right": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "Performance aggression": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "Side-lit wheel and wing"
+      ],
+      "subject_examples": [
+        "Rear quarter wheel high angle"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Demon Mazda RX-7/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Demon Mazda RX-7.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "wheel_detail__rear_mid",
+      "framing": "wheel_detail",
+      "camera_position_coarse": "rear_mid",
+      "instance_count": 1,
+      "duration_min": 1.767,
+      "duration_max": 1.767,
+      "duration_avg": 1.767,
+      "motion_tag_distribution": {
+        "pan_left": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "Technical performance": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "Side-lit wheel and fender"
+      ],
+      "subject_examples": [
+        "Rear quarter wheel showcase"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Demon Mazda RX-7/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Demon Mazda RX-7.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "extreme_close_up__front_low",
+      "framing": "extreme_close_up",
+      "camera_position_coarse": "front_low",
+      "instance_count": 1,
+      "duration_min": 0.826,
+      "duration_max": 0.826,
+      "duration_avg": 0.826,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "Raw engineering": 1
+      },
+      "color_family_distribution": {
+        "candy_vivid": 1
+      },
+      "lighting_examples": [
+        "Texture-revealing side light"
+      ],
+      "subject_examples": [
+        "Front splitter carbon detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Full Carbon Ferrari 296 XX/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Full Carbon Ferrari 296 XX.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "medium_side__front_right_low",
+      "framing": "medium_side",
+      "camera_position_coarse": "front_right_low",
+      "instance_count": 1,
+      "duration_min": 3.133,
+      "duration_max": 3.133,
+      "duration_avg": 3.133,
+      "motion_tag_distribution": {
+        "orbit_right": 1
+      },
+      "environment_distribution": {
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "stealthy, aggressive": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "side key light, rim lighting"
+      ],
+      "subject_examples": [
+        "carbon black McLaren 720S profile"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Full Carbon McLaren 720S/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Full Carbon McLaren 720S.mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "interior__left_mid",
+      "framing": "interior",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 1,
+      "duration_min": 0.733,
+      "duration_max": 0.733,
+      "duration_avg": 0.733,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "cockpit exclusivity": 1
+      },
+      "color_family_distribution": {
+        "dark_moody": 1
+      },
+      "lighting_examples": [
+        "low key interior lighting"
+      ],
+      "subject_examples": [
+        "interior with open door detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Full Carbon Pagani Zonda R/shot09.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Full Carbon Pagani Zonda R.mp4",
+          "shot_id": 9
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__front_left_high",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_left_high",
+      "instance_count": 1,
+      "duration_min": 1.967,
+      "duration_max": 1.967,
+      "duration_avg": 1.967,
+      "motion_tag_distribution": {
+        "pull_back": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "sleek, sophisticated": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "soft overhead studio"
+      ],
+      "subject_examples": [
+        "car front 3/4 angle elevated"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Koenigsegg One1 GT/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Koenigsegg One1 GT.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__front_left_mid",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_left_mid",
+      "instance_count": 1,
+      "duration_min": 2.267,
+      "duration_max": 2.267,
+      "duration_avg": 2.267,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "sculptural elegance": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "warm accent lighting on car"
+      ],
+      "subject_examples": [
+        "Huayra front three-quarter view"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Pagani Huayra/shot03.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 3
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__front_low",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "front_low",
+      "instance_count": 1,
+      "duration_min": 1.7,
+      "duration_max": 1.7,
+      "duration_avg": 1.7,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "aggressive performance stance": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "low studio side lighting"
+      ],
+      "subject_examples": [
+        "rear view with distinctive wing"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Pagani Huayra/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__rear_left_mid",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "rear_left_mid",
+      "instance_count": 1,
+      "duration_min": 3.633,
+      "duration_max": 3.633,
+      "duration_avg": 3.633,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "showroom": 1
+      },
+      "mood_distribution": {
+        "lifestyle luxury context": 1
+      },
+      "color_family_distribution": {
+        "light_pastel": 1
+      },
+      "lighting_examples": [
+        "soft ambient interior"
+      ],
+      "subject_examples": [
+        "wide showroom scene with car and furniture"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Pagani Huayra/shot07.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Pagani Huayra.mp4",
+          "shot_id": 7
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__rear_left_low",
+      "framing": "medium_3q",
+      "camera_position_coarse": "rear_left_low",
+      "instance_count": 1,
+      "duration_min": 2.183,
+      "duration_max": 2.183,
+      "duration_avg": 2.183,
+      "motion_tag_distribution": {
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "hybrid performance": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "dramatic side accent, rim highlight"
+      ],
+      "subject_examples": [
+        "Rear three-quarter view with blue accent"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche 918 Spyder/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "extreme_close_up__front_mid",
+      "framing": "extreme_close_up",
+      "camera_position_coarse": "front_mid",
+      "instance_count": 1,
+      "duration_min": 4.3,
+      "duration_max": 4.3,
+      "duration_avg": 4.3,
+      "motion_tag_distribution": {
+        "unknown": 1
+      },
+      "environment_distribution": {
+        "studio_black": 1
+      },
+      "mood_distribution": {
+        "technical precision": 1
+      },
+      "color_family_distribution": {
+        "carbon_black": 1
+      },
+      "lighting_examples": [
+        "directional rim light, shadow detail"
+      ],
+      "subject_examples": [
+        "Wheel hub extreme close-up"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche 918 Spyder/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche 918 Spyder.mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "wide_full_car__left_mid",
+      "framing": "wide_full_car",
+      "camera_position_coarse": "left_mid",
+      "instance_count": 1,
+      "duration_min": 2.033,
+      "duration_max": 2.033,
+      "duration_avg": 2.033,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "themed_set": 1
+      },
+      "mood_distribution": {
+        "celebratory, premium showcase": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "bright studio with accent lighting on car"
+      ],
+      "subject_examples": [
+        "Red Porsche in themed showroom"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche GT3RS McQueen & Sally (1)/shot01.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_side__front_left_low",
+      "framing": "medium_side",
+      "camera_position_coarse": "front_left_low",
+      "instance_count": 1,
+      "duration_min": 1.883,
+      "duration_max": 1.883,
+      "duration_avg": 1.883,
+      "motion_tag_distribution": {
+        "static_arc": 1
+      },
+      "environment_distribution": {
+        "themed_set": 1
+      },
+      "mood_distribution": {
+        "intimate display": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "soft studio with warm accent"
+      ],
+      "subject_examples": [
+        "Red Porsche from living room perspective"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche GT3RS McQueen & Sally (1)/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__unknown_low",
+      "framing": "tight_detail",
+      "camera_position_coarse": "unknown_low",
+      "instance_count": 1,
+      "duration_min": 1.15,
+      "duration_max": 1.15,
+      "duration_avg": 1.15,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_white": 1
+      },
+      "mood_distribution": {
+        "achievement highlight": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "soft directional spot"
+      ],
+      "subject_examples": [
+        "Trophy and car wheel detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche GT3RS McQueen & Sally (1)/shot05.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 5
+        }
+      ]
+    },
+    {
+      "id": "medium_3q__front_right_low",
+      "framing": "medium_3q",
+      "camera_position_coarse": "front_right_low",
+      "instance_count": 1,
+      "duration_min": 1.6,
+      "duration_max": 1.6,
+      "duration_avg": 1.6,
+      "motion_tag_distribution": {
+        "orbit_left": 1
+      },
+      "environment_distribution": {
+        "themed_set": 1
+      },
+      "mood_distribution": {
+        "lifestyle luxury": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "ambient room light with accents"
+      ],
+      "subject_examples": [
+        "Porsche in modern living space"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Porsche GT3RS McQueen & Sally (1)/shot06.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Porsche GT3RS McQueen & Sally (1).mp4",
+          "shot_id": 6
+        }
+      ]
+    },
+    {
+      "id": "medium_side__rear_high",
+      "framing": "medium_side",
+      "camera_position_coarse": "rear_high",
+      "instance_count": 1,
+      "duration_min": 1.567,
+      "duration_max": 1.567,
+      "duration_avg": 1.567,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "performance-focused": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "bright highlight on wing surface"
+      ],
+      "subject_examples": [
+        "rear wing and diffuser detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Purple McLaren 720S765LT/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Purple McLaren 720S765LT.mp4",
+          "shot_id": 2
+        }
+      ]
+    },
+    {
+      "id": "tight_detail__front_high",
+      "framing": "tight_detail",
+      "camera_position_coarse": "front_high",
+      "instance_count": 1,
+      "duration_min": 2.333,
+      "duration_max": 2.333,
+      "duration_avg": 2.333,
+      "motion_tag_distribution": {
+        "push_in": 1
+      },
+      "environment_distribution": {
+        "studio_grey": 1
+      },
+      "mood_distribution": {
+        "intimate detail focus": 1
+      },
+      "color_family_distribution": {
+        "wine": 1
+      },
+      "lighting_examples": [
+        "directional side lighting emphasizing curves"
+      ],
+      "subject_examples": [
+        "Front fascia and mirror detail"
+      ],
+      "example_thumbs": [
+        "reference_analysis/thumbs/Wine Ferrari LaFerrari/shot02.jpg"
+      ],
+      "source_refs": [
+        {
+          "video": "Wine Ferrari LaFerrari.mp4",
+          "shot_id": 2
+        }
+      ]
+    }
+  ]
+}

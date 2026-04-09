@@ -1,0 +1,72 @@
+{
+  "_comment": "LOCKED cut plans per audio track. These timings are user-approved and should be reused verbatim for any video rendered against the same audio file. All timings assume 24fps render. Do not edit without re-auditioning.",
+  "fps": 24,
+  "tracks": {
+    "audio 1.mp3": {
+      "path": "Audio/audio 1.mp3",
+      "duration_sec": 13.074,
+      "shot_count": 8,
+      "fps": 24,
+      "frame_counts": [55, 52, 51, 57, 24, 28, 27, 20],
+      "shot_durations_sec": [2.292, 2.167, 2.125, 2.375, 1.000, 1.167, 1.125, 0.833],
+      "cut_points_sec": [2.292, 4.458, 6.583, 8.958, 9.958, 11.125, 12.250],
+      "drop_shot": 5,
+      "drop_at_sec": 8.958,
+      "provenance": {
+        "base": "user-tapped cuts from Audio/AUDIO_TAPS.md (audio 1.mp3: 2.47,2.18,2.12,2.35,1.03,1.15,1.13)",
+        "adjustments": [
+          "Global shift: -4 frames on all cut boundaries to fix universal lateness",
+          "Shot 5 (Direct front, drop hero) entry pulled 3 additional frames earlier"
+        ],
+        "locked_on": "2026-04-08",
+        "reference_render": "/tmp/wine_ferrari_audio1_v3.mp4 (wine ferrari stills + audio 1.mp3)",
+        "approved_by": "user"
+      }
+    },
+    "1.mp3": {
+      "path": "Audio/1.mp3",
+      "duration_sec": 15.071,
+      "shot_count": 8,
+      "fps": 24,
+      "frame_counts": [46, 43, 45, 48, 44, 45, 46, 45],
+      "shot_durations_sec": [1.917, 1.792, 1.875, 2.000, 1.833, 1.875, 1.917, 1.875],
+      "cut_points_sec": [1.917, 3.708, 5.583, 7.583, 9.417, 11.292, 13.208],
+      "drop_shot": null,
+      "drop_at_sec": null,
+      "provenance": {
+        "base": "user-tapped cuts from Audio/AUDIO_TAPS.md (1.mp3: 1.90,1.96,1.85,1.88,1.84,1.86,1.92)",
+        "adjustments": [
+          "Shot 2->3 cut pulled 4 frames earlier",
+          "Shot 3->4 cut pulled 3 frames earlier"
+        ],
+        "locked_on": "2026-04-08",
+        "reference_render": "/tmp/wine_ferrari_1_v2.mp4 (wine ferrari stills + 1.mp3)",
+        "approved_by": "user"
+      }
+    },
+    "2.mp3": {
+      "path": "Audio/2.mp3",
+      "duration_sec": 16.604,
+      "shot_count": 10,
+      "fps": 24,
+      "frame_counts": [41, 42, 42, 41, 40, 40, 41, 42, 42, 26],
+      "shot_durations_sec": [1.708, 1.750, 1.750, 1.708, 1.667, 1.667, 1.708, 1.750, 1.750, 1.083],
+      "cut_points_sec": [1.708, 3.458, 5.208, 6.917, 8.583, 10.250, 11.958, 13.708, 15.458],
+      "drop_shot": null,
+      "drop_at_sec": null,
+      "provenance": {
+        "base": "user-retapped cuts (supersedes AUDIO_TAPS.md): 2.30, 1.74, 1.74, 1.71, 1.67, 1.68, 1.72, 1.77, 1.76. Original tap-based frames: 48,44,38,42,41,42,39,43,40,20",
+        "adjustments": [
+          "v3: shot 1 shortened 55->47 to free 8f into shot 10 stinger (v3)",
+          "v4: shot 1 further shortened 47->43 (1.8s)",
+          "v5 (Option A): shot 1 39f, all downstream cuts shifted -4f earlier, shot 10 -> 28f",
+          "v6 (final): shot 1 nudged back +2f (39->41), all downstream cuts shifted +2f later, shot 10 -> 26f"
+        ],
+        "locked_on": "2026-04-08",
+        "reference_render": "/tmp/wine_ferrari_2_v6.mp4 (wine ferrari stills cycled 1..8,1,2 + 2.mp3)",
+        "approved_by": "user",
+        "notes": "Shots 9,10 in this render cycle wine ferrari shots 1,2. Actual stills will differ per car."
+      }
+    }
+  }
+}
