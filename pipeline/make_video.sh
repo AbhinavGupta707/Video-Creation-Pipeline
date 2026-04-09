@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Production: take a directory of 8 AI-generated stills and produce a final 1080x1920 24fps video.
+# Production: take a directory of AI-generated stills and produce a final 1080x1920 24fps video.
 #
 # Uses render_v2.py — sub-pixel renderer with PERSPECTIVE-CORRECT inverse-depth
 # parallax (true 3D feel from a 2D still) and clean default filters.
@@ -24,6 +24,9 @@
 #                            20 = high
 #                            22 = delivery (default)
 #                            24 = social/small
+#   --frames C            Comma-separated frame counts per shot (overrides motion table durations).
+#                         Must have exactly N values matching the motion table shot count.
+#   --audio FILE          Mux this audio file onto the final video (no planning, just mux)
 #   --grade               Add cinematic teal-orange color grade (off by default)
 #   --vignette            Add corner vignette (off by default)
 #   --grain               Add film grain (off by default — adds 50-100MB to file)
@@ -41,7 +44,7 @@
 #   ./make_video.sh ai_stills/ output.mp4
 #   ./make_video.sh ai_stills/ dramatic.mp4 --scale 1.5 --depth-intensity 4
 #   ./make_video.sh ai_stills/ cinematic.mp4 --cinematic
-#   ./make_video.sh ai_stills/ social.mp4 --crf 24
+#   ./make_video.sh ai_stills/ output.mp4 --frames 55,52,51,57,24,28,27,20 --audio track.mp3
 
 set -euo pipefail
 
@@ -63,10 +66,7 @@ MOTION_TABLE="$PIPELINE_DIR_BOOT/motion_table.json"
 EXTRA_FLAGS=""
 USE_LEGACY=false
 AUDIO=""
-BPM_OVERRIDE=""
-DROP_AT=""
-DROP_SHOT="7"
-GRANULARITY="half_bar"
+FRAMES_CSV=""
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -83,10 +83,7 @@ while [[ $# -gt 0 ]]; do
     --cinematic)        EXTRA_FLAGS="$EXTRA_FLAGS --cinematic"; shift ;;
     --legacy)           USE_LEGACY=true; shift ;;
     --audio)            AUDIO=$2; shift 2 ;;
-    --bpm-override)     BPM_OVERRIDE=$2; shift 2 ;;
-    --drop-at)          DROP_AT=$2; shift 2 ;;
-    --drop-shot)        DROP_SHOT=$2; shift 2 ;;
-    --granularity)      GRANULARITY=$2; shift 2 ;;
+    --frames)           FRAMES_CSV=$2; shift 2 ;;
     *) echo "Unknown option: $1"; exit 1 ;;
   esac
 done
@@ -136,26 +133,8 @@ for i in $SHOT_IDS; do
 done
 
 FRAMES_FLAG=""
-AUDIO_VENV_PY="$PROJECT_DIR/.venv-audio/bin/python"
-if [[ -n "$AUDIO" ]]; then
-  echo ""
-  echo "Step 1.5: running audio_plan Tier 1 planner..."
-  if [[ ! -x "$AUDIO_VENV_PY" ]]; then
-    echo "ERROR: audio venv missing at $AUDIO_VENV_PY"
-    echo "  Create it per AUDIO_PLAN.md before using --audio."
-    exit 1
-  fi
-  PLAN_JSON="$WORK/audio_plan.json"
-  (cd "$PROJECT_DIR" && "$AUDIO_VENV_PY" -m pipeline.audio_plan_cli "$AUDIO" \
-      --tier 1 --n-shots "$SHOT_COUNT" --out "$PLAN_JSON") >&2
-  FRAMES_CSV=$("$PYTHON" -c "
-import json
-p = json.load(open('$PLAN_JSON'))
-fps = 24
-print(','.join(str(max(1, round(d * fps))) for d in p['shot_durations']))
-")
-  echo "  plan: $PLAN_JSON"
-  echo "  → frame counts: $FRAMES_CSV"
+if [[ -n "$FRAMES_CSV" ]]; then
+  echo "  Frame counts override: $FRAMES_CSV"
   FRAMES_FLAG="--frames $FRAMES_CSV"
 fi
 
@@ -199,9 +178,9 @@ echo ""
 echo "============================================================"
 echo "DONE"
 echo "============================================================"
-$FFMPEG -i "$OUTPUT" -hide_banner 2>&1 | grep -E "Duration|Stream #0:0" | sed 's/^/  /'
-SIZE=$(ls -la "$OUTPUT" | awk '{print $5}')
-SIZE_MB=$(echo "scale=1; $SIZE/1048576" | bc)
+$FFMPEG -i "$OUTPUT" -hide_banner 2>&1 | grep -E "Duration|Stream #0:0" | sed 's/^/  /' || true
+SIZE=$(stat -f%z "$OUTPUT" 2>/dev/null || echo "0")
+SIZE_MB=$(echo "scale=1; $SIZE/1048576" | bc 2>/dev/null || echo "?")
 echo "  File size: ${SIZE_MB} MB"
 echo ""
 echo "Output: $OUTPUT"

@@ -39,6 +39,12 @@ pipeline/*.mp4
 # Reference analysis thumbnails (regeneratable)
 reference_analysis/thumbs/
 
+# Brief outputs (large binaries, regeneratable)
+briefs/*/Final Images/
+briefs/*/depths/
+briefs/*/stills/
+briefs/*/Image Gen/
+
 # Rendered outputs (regeneratable)
 out/
 

@@ -51,18 +51,54 @@ DEFAULT_COLOR_TEMP_K = 5200
 # then the independent face (dead-front), then shots that derive cleanly from
 # already-locked shots. Details go last because they crop from locked wides.
 GEN_RANK: dict[str, int] = {
+    # Wides first — establish identity, then increasingly dependent shots
     "wide_front_3q_right": 1,
     "wide_side_profile":   2,
     "wide_dead_front":     3,
     "wide_rear_3q":        4,
+    "wide_rear_3q_left":   4,   # same rank as rear_3q — another wide
     "wide_front_3q_left":  5,
+    "wide_dead_rear":      5,
+    # Details — generated after wides they depend on
     "wheel_detail":        6,
+    "wheel_detail_rear":   6,
     "rear_detail":         7,
+    "signature_detail":    7,
+    "rear_badge_detail":   7,
     "front_detail":        8,
+    # Special — generated last (often depend on multiple locked shots)
+    "extreme_close_up":    9,
+    "interior":            9,
+    "top_down":            9,
 }
 
 
 # ---- data classes (immutable) ----
+
+@dataclass(frozen=True)
+class SignatureDetail:
+    """The car's most visually striking detail element for the tight close-up shot.
+
+    For cars with an iconic rear badge (Ferrari prancing horse, Porsche script),
+    this is typically the rear badge. For cars without one, pick the most
+    photogenic and unique element (exhaust cluster, engine bay, canopy, etc.).
+    """
+    element: str
+    location: str
+    why: str
+    visual_description: str
+    camera_approach: str
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "SignatureDetail":
+        return cls(
+            element=d["element"],
+            location=d["location"],
+            why=d["why"],
+            visual_description=d["visual_description"],
+            camera_approach=d["camera_approach"],
+        )
+
 
 @dataclass(frozen=True)
 class Car:
@@ -70,14 +106,17 @@ class Car:
     short_name: str
     body_description: str
     not_cars: tuple[str, ...]
+    signature_detail: SignatureDetail | None
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "Car":
+        sig = d.get("signature_detail")
         return cls(
             full_name=d["full_name"],
             short_name=d["short_name"],
             body_description=d["body_description"],
             not_cars=tuple(d["not_cars"]),
+            signature_detail=SignatureDetail.from_dict(sig) if sig else None,
         )
 
 
@@ -307,6 +346,24 @@ def build_references_for_shot(
     return refs
 
 
+def build_signature_detail_block(brief: Brief) -> str:
+    """Build an extra block for signature_detail archetype shots.
+
+    Injects the car-specific signature element description so the image gen
+    model knows exactly what to focus on as the hero element.
+    """
+    sig = brief.car.signature_detail
+    if sig is None:
+        return ""
+    return (
+        f"**Signature detail — hero element for this shot:** "
+        f"{sig.element}, located at {sig.location}.\n\n"
+        f"**Why this element:** {sig.why}\n\n"
+        f"**Visual description of the hero element:** {sig.visual_description}\n\n"
+        f"**Camera approach:** {sig.camera_approach}"
+    )
+
+
 def compute_generation_order(shots: tuple[Shot, ...]) -> list[Shot]:
     """Sort shots by derivability rank (wides first, details last)."""
     return sorted(
@@ -327,9 +384,14 @@ def render_shot_prompt(shot: Shot, brief: Brief) -> str:
     refs = build_references_for_shot(shot, brief)
     ref_lines = "\n".join(f"- `{label}` → `{path}`" for label, path in refs)
     per_shot_lock = build_style_lock(brief, is_detail=shot.is_detail)
+    # For signature_detail archetype, inject the car-specific hero element block
+    sig_block = ""
+    if shot.archetype in ("signature_detail", "rear_badge_detail"):
+        sig_block = build_signature_detail_block(brief)
     blocks = [
         build_continuity_block(shot, brief),
         per_shot_lock,
+        sig_block,
         build_camera_block(shot),
         build_framing_block(shot),
         "**Generate.**",

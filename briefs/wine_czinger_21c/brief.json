@@ -2,13 +2,20 @@
   "car": {
     "full_name": "Czinger 21C",
     "short_name": "Czinger",
-    "body_description": "American 3D-printed hybrid hypercar with a distinctive 1+1 tandem cockpit (driver centered, passenger directly behind — NOT side-by-side), teardrop single canopy tapering sharply toward the rear, exposed raw 3D-printed structural lattice panels at the front splitter and rear diffuser, quad central exhausts, aggressive active rear wing, slit-style narrow front lights, very low and wide Le Mans prototype-like silhouette.",
-    "not_cars": ["McLaren", "Ferrari", "Pagani", "Koenigsegg"]
+    "body_description": "American 3D-printed hybrid hypercar with a distinctive 1+1 tandem cockpit (driver centered, passenger directly behind — NOT side-by-side), teardrop single canopy tapering sharply toward the rear, exposed raw 3D-printed structural lattice panels at the rear diffuser and rear suspension area, conventional dark carbon fiber front splitter, quad central exhausts, aggressive active rear wing, slit-style narrow front lights, very low and wide Le Mans prototype-like silhouette.",
+    "not_cars": ["McLaren", "Ferrari", "Pagani", "Koenigsegg"],
+    "signature_detail": {
+      "element": "quad central exhaust cluster with 3D-printed lattice diffuser surround",
+      "location": "rear center, below the rear deck and between the rear haunches",
+      "why": "The four tightly-packed exhaust tips surrounded by organic 3D-printed lattice diffuser structure is the Czinger's most visually striking and unique rear detail — more photogenic than the subtle 'C' badge. No other car has this combination of quad exhausts nested in topology-optimized lattice.",
+      "visual_description": "Four circular polished metal exhaust tips arranged in a tight 2x2 cluster at the center of the rear diffuser, surrounded by raw matte charcoal 3D-printed lattice struts that branch organically around them like a skeletal cage. Wine oxblood pearl rear body curves frame the cluster from above and both sides. The active rear wing's underside and trailing edge sweep across the top of the frame.",
+      "camera_approach": "low behind the car at 6 o'clock, looking slightly upward into the diffuser area, so the exhaust tips catch studio light as bright metallic circles against the dark lattice"
+    }
   },
   "paint": {
     "name": "deep wine oxblood pearl",
     "description": "Deep wine oxblood pearl paint across all body panels — dark burgundy red with subtle dark-metallic flake catching the studio lights, NOT bright red, NOT maroon-brown, NOT pink",
-    "lattice_treatment": "Raw 3D-printed lattice panels stay unpainted matte charcoal — do not paint them wine. The contrast between wine body and charcoal lattice is a signature of this car.",
+    "lattice_treatment": "Raw 3D-printed lattice panels (REAR ONLY — at the rear diffuser and rear suspension area) stay unpainted matte charcoal. The front of the car has a conventional dark carbon fiber splitter, NOT exposed lattice. Do not add lattice to the front of the car.",
     "wheels": "Polished gunmetal multi-spoke forged wheels, same spoke count and finish across all shots",
     "calipers": "Red brake calipers visible behind the wheel spokes",
     "canopy": "Dark-tinted tandem canopy glass"
@@ -18,6 +25,7 @@
     "color_temp_k": 5200
   },
   "audio_track": "1.mp3",
+  "stills_dir": "Final Images",
   "identity_references": {
     "ref 1 (silver Czinger front 3/4 on road)": "briefs/wine_czinger_21c/ref 1",
     "ref 2 (wine Czinger dead-front on track)": "briefs/wine_czinger_21c/ref 2.jpg",
@@ -51,13 +59,13 @@
     },
     {
       "playback_order": 3,
-      "archetype": "rear_badge_detail",
-      "shot_name": "tight rear close-up with Czinger badge/logo as hero focal point",
-      "camera_clock": "6 o'clock slightly low (directly behind the car, looking slightly upward at the rear deck and wing)",
-      "lens_height_cm": 60,
+      "archetype": "signature_detail",
+      "shot_name": "tight rear close-up — quad exhaust cluster hero with lattice diffuser surround",
+      "camera_clock": "6 o'clock low (directly behind the car, looking slightly upward into the diffuser and exhaust area)",
+      "lens_height_cm": 30,
       "lens_mm": 85,
       "subject_distance_m": 1.5,
-      "composition_notes": "Tight rear close-up — NOT the full car, NOT a wide shot, but NOT an extreme unrecognizable macro either. The Czinger 'C' badge/logo on the rear deck is the HERO element, centered in the frame, razor-sharp and clearly readable. Match the ethos of the wine Ferrari shot3 reference: badge as hero with the rear wing sweeping dramatically across the top of the frame and the diffuser/mesh filling the bottom. Three orientation anchors: (1) top ~30% of frame shows the underside of the active rear wing sweeping across as a dramatic dark carbon curve with the wine rear deck paint visible between the wing and the body, (2) middle ~35% of frame shows the wine oxblood pearl rear deck/panel with the silver Czinger 'C' badge centered and razor-sharp — this is the HERO element of the shot, (3) bottom ~35% of frame shows the dark 3D-printed lattice diffuser structure and a hint of the quad exhaust outlets. The rear taillight signatures visible as small glowing accents at the left and right edges. Moderate DOF f/5.6 — badge razor sharp, wing and diffuser slightly soft but clearly readable as car parts. Wine paint catches subtle rim light. Grey studio background visible around the edges.",
+      "composition_notes": "Tight rear close-up in the style of the wine Ferrari shot3 reference — abstract, sexy, but still instantly identifiable as the rear of a hypercar. NOT the full car, NOT a wide shot, but NOT an extreme unrecognizable macro either. The HERO element is the quad central exhaust cluster: four circular polished metal exhaust tips arranged in a tight 2x2 cluster, glinting with studio light as bright metallic circles against the surrounding dark lattice. The 3D-printed lattice diffuser struts branch organically around the exhaust tips like a skeletal cage — raw matte charcoal against the polished metal tips. Three orientation anchors: (1) top ~25% of frame shows the underside of the active rear wing sweeping dramatically across as a dark carbon curve, with a sliver of wine oxblood pearl rear deck paint visible between the wing and the body — this signals REAR OF CAR, (2) middle ~45% of frame shows the quad exhaust tips (hero, razor-sharp) nested in the 3D-printed lattice diffuser cage, (3) bottom ~30% of frame shows the lower diffuser edge and a subtle floor reflection, with wine rear haunch curves framing the cluster from both sides at the left and right edges. Rear taillight signatures visible as small glowing red accents at the far left and right edges. Moderate DOF f/5.6 — exhaust tips and surrounding lattice in razor focus, wing edge and body curves slightly soft but clearly readable. Wine paint catches subtle rim light on the haunch curves. Grey studio visible around the edges.",
       "is_detail": true,
       "derived_from_playback": [4]
     },
@@ -89,14 +97,14 @@
     {
       "playback_order": 6,
       "archetype": "front_detail",
-      "shot_name": "front splitter lattice and Czinger badge detail",
-      "camera_clock": "12 o'clock bumper height, looking slightly upward",
+      "shot_name": "angled front headlight and nose detail from 1-2 o'clock low",
+      "camera_clock": "1-2 o'clock low (front-right of the car, crouched beside the front corner, looking across the nose at an angle)",
       "lens_height_cm": 40,
-      "lens_mm": 100,
-      "subject_distance_m": 1.2,
-      "composition_notes": "Tight-but-readable crop of the front face from shot8 — NOT extreme macro. Viewer must immediately recognize 'that's the front of the same hypercar' within 0.5 seconds. Three orientation anchors must be visible: (1) top ~15% of frame shows small glimpses of the slit-style narrow front headlights at both upper corners with subtle warm LED glow plus the wine hood curving across (signals FRONT of car, symmetric and centered), (2) middle ~50% of frame shows the deep wine oxblood pearl nose with the silver/chrome Czinger badge centered and readable in razor-sharp focus, (3) bottom ~35% of frame shows the 3D-printed front splitter lattice with organic branching strut geometry clearly visible in sharp focus (matching the rear lattice style from shot3). Moderate DOF f/5.6 — badge and splitter lattice razor sharp, hood paint and floor slightly soft but readable.",
+      "lens_mm": 85,
+      "subject_distance_m": 1.8,
+      "composition_notes": "Angled front detail — camera is OFF-CENTER at roughly 1-2 o'clock, crouched low beside the front-right corner, shooting across the nose. NOT a symmetric dead-front crop (that is shot 8). IMPORTANT: this is a REALISTIC close-up of a real car's front end — all proportions must be physically accurate to the real Czinger 21C. Do NOT exaggerate, enlarge, or invent any body elements. The front of the Czinger 21C has smooth wine-painted bodywork with a conventional carbon fiber front splitter (NOT a massive exposed lattice — the lattice is only at the REAR of the car). Three orientation anchors: (1) the right-side slit headlight is the HERO element — a narrow aggressive LED light signature viewed at an angle, glowing warm, clearly the front headlight of a hypercar, filling the upper-left ~30% of the frame, (2) middle ~40% shows the smooth wine oxblood pearl front nose, fender, and hood curving away from camera toward the left, Czinger badge visible on the hood at an angle, wine paint catching a strong rim light highlight along the right fender peak — smooth bodywork with realistic panel gaps and air intake vents, (3) bottom ~30% shows the dark carbon fiber front splitter (conventional flat carbon, NOT a giant lattice cage) and a glimpse of the front-right tire and gunmetal wheel at the bottom-right corner. Moderate DOF f/5.6 — headlight and nearest fender in razor focus, far side of hood falls into gentle bokeh. Grey studio visible at the left edge.",
       "is_detail": true,
-      "derived_from_playback": [8]
+      "derived_from_playback": [1]
     },
     {
       "playback_order": 7,

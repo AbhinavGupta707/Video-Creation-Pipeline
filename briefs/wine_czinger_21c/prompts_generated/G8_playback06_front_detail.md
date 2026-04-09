@@ -1,12 +1,9 @@
-# Shot 2 of 8 — pure side profile showing the LEFT flank
+# Shot 6 of 8 — angled front headlight and nose detail from 1-2 o'clock low
 
-**Archetype:** `wide_side_profile`
+**Archetype:** `front_detail`
 
 ## References to attach
 
-- `ref 1 (silver Czinger front 3/4 on road)` → `briefs/wine_czinger_21c/ref 1`
-- `ref 2 (wine Czinger dead-front on track)` → `briefs/wine_czinger_21c/ref 2.jpg`
-- `ref 3 (silver Czinger rear 3/4 elevated)` → `briefs/wine_czinger_21c/ref 3.webp`
 - `locked shot1.jpg (playback shot 1)` → `/Users/abhinavgupta/Desktop/instagram/briefs/wine_czinger_21c/stills/shot1.jpg`
 
 ## Prompt (paste verbatim into ChatGPT / Nano Banana / Ideogram)
@@ -20,16 +17,14 @@
 >
 > **Studio environment (locked across all 8 shots):** Infinite seamless mid-grey (#6a6a6a) cyclorama, evenly lit edge to edge and top to bottom with a subtle soft gradient from slightly darker upper area to slightly brighter mid area behind the car, then flat grey floor curving up into the wall with no visible seam, bright clean even studio lighting like high-end Pagani, Koenigsegg, or Porsche press photography. **No dark corner vignette. No moody dramatic contrast. No theatrical lighting. No fan of multiple hot floor reflections.** Single soft floor reflection directly beneath the car only, fading gently. Color temperature ~5200K.
 >
-> **Photographic quality:** Photoreal medium-format studio photograph, Phase One 150MP look, **deep focus f/8.0 sharp throughout the entire car from nose to tail** — NOT shallow DOF, NOT tilt-shift, NOT miniature effect. Real automotive press photography feel — NOT AI-rendered smoothness, NOT Midjourney over-stylization. Tactile sharp detail on paint reflections, lattice texture, and wheel spokes.
+> **Photographic quality:** Photoreal medium-format studio photograph, Phase One 150MP look, **moderate depth of field f/5.6 — NOT extreme shallow DOF, NOT f/2.8, NOT tilt-shift, NOT miniature.** The primary focal subject is in razor-sharp focus; the surrounding orientation-anchor landmarks (named in the composition notes) are in gentle slightly-soft focus but must still be clearly readable — the viewer must be able to identify which part of the car they are looking at within 0.5 seconds. Real automotive product detail photography like a Porsche, Pagani, or Ferrari press kit shot — NOT AI-rendered, NOT abstract texture.
 >
 > **Output spec:** 9:16 vertical portrait, 2160 × 3840 pixels. No borders, no letterbox, no watermark, no text, no UI overlay. Horizon perfectly level, no Dutch angle, no fisheye distortion.
 >
-> **Camera:** Position 9 o'clock (directly to the left of the car) relative to the car. Lens height 90cm from the floor. 50mm full-frame equivalent lens, subject distance ~8.0m.
+> **Camera:** Position 1-2 o'clock low (front-right of the car, crouched beside the front corner, looking across the nose at an angle) relative to the car. Lens height 40cm from the floor. 85mm full-frame equivalent lens, subject distance ~1.8m.
 >
-> Camera perpendicular to the car centerline (90° dead side-on, zero yaw). The viewer sees the complete LEFT flank of the car. **The car runs horizontally across the frame with its nose pointing toward the LEFT side of the frame and its tail pointing toward the RIGHT side of the frame.**
+> **Composition notes:** Angled front detail — camera is OFF-CENTER at roughly 1-2 o'clock, crouched low beside the front-right corner, shooting across the nose. NOT a symmetric dead-front crop (that is shot 8). IMPORTANT: this is a REALISTIC close-up of a real car's front end — all proportions must be physically accurate to the real Czinger 21C. Do NOT exaggerate, enlarge, or invent any body elements. The front of the Czinger 21C has smooth wine-painted bodywork with a conventional carbon fiber front splitter (NOT a massive exposed lattice — the lattice is only at the REAR of the car). Three orientation anchors: (1) the right-side slit headlight is the HERO element — a narrow aggressive LED light signature viewed at an angle, glowing warm, clearly the front headlight of a hypercar, filling the upper-left ~30% of the frame, (2) middle ~40% shows the smooth wine oxblood pearl front nose, fender, and hood curving away from camera toward the left, Czinger badge visible on the hood at an angle, wine paint catching a strong rim light highlight along the right fender peak — smooth bodywork with realistic panel gaps and air intake vents, (3) bottom ~30% shows the dark carbon fiber front splitter (conventional flat carbon, NOT a giant lattice cage) and a glimpse of the front-right tire and gunmetal wheel at the bottom-right corner. Moderate DOF f/5.6 — headlight and nearest fender in razor focus, far side of hood falls into gentle bokeh. Grey studio visible at the left edge.
 >
-> **Composition notes:** Complete left flank of the car visible — left front wheel on the viewer's left, left door in the middle, left rear wheel on the viewer's right. Teardrop tandem canopy silhouette clearly readable against the grey backdrop. Active rear wing visible at upper-right of silhouette. Front splitter lattice at lower-left. Diffuser with 3D-printed lattice at lower-right.
->
-> **Framing (critical — small subject in large empty studio):** Car occupies ~45% of frame height and ~75% of frame width of the 9:16 portrait. ~20% empty grey space above the highest point of the car. ~18% empty grey floor below the tires. ~13% empty grey space on each side of the widest point of the car. This breathing room is required for post-production camera motion in the final reel.
+> **Framing (tight detail, NOT extreme macro, NOT abstract texture):** The focal subject fills ~60% of the frame of the 9:16 portrait. Leave generous grey breathing room around the subject for post-production motion room and so orientation-anchor landmarks named in the composition notes above are all visible in the frame. **Do NOT zoom all the way in — the viewer must be able to identify which part of the car they are looking at within 0.5 seconds.**
 >
 > **Generate.**

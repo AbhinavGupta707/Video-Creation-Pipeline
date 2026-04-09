@@ -21,8 +21,8 @@
 | G4 | 4 | `wide_rear_3q` | rear 3/4 right low hero (longest dwell shot) | shot1, shot2, shot8 |
 | G5 | 7 | `wide_front_3q_left` | front 3/4 LEFT wide (mirror of shot 1) | shot1, shot2, shot8 |
 | G6 | 5 | `wheel_detail` | front-right wheel and brake caliper detail | shot1, shot8 |
-| G7 | 6 | `front_detail` | front splitter lattice and Czinger badge detail | shot8 |
-| G8 | 3 | `rear_badge_detail` | tight rear close-up with Czinger badge/logo as hero focal point | shot4 |
+| G7 | 3 | `signature_detail` | tight rear close-up — quad exhaust cluster hero with lattice diffuser surround | shot4 |
+| G8 | 6 | `front_detail` | angled front headlight and nose detail from 1-2 o'clock low | shot1 |
 
 ## Playback order (final video sequence)
 
@@ -30,10 +30,10 @@
 |---|---|---|
 | 1 | `wide_front_3q_right` | front 3/4 right wide establishing |
 | 2 | `wide_side_profile` | pure side profile showing the LEFT flank |
-| 3 | `rear_badge_detail` | tight rear close-up with Czinger badge/logo as hero focal point |
+| 3 | `signature_detail` | tight rear close-up — quad exhaust cluster hero with lattice diffuser surround |
 | 4 | `wide_rear_3q` | rear 3/4 right low hero (longest dwell shot) |
 | 5 | `wheel_detail` | front-right wheel and brake caliper detail |
-| 6 | `front_detail` | front splitter lattice and Czinger badge detail |
+| 6 | `front_detail` | angled front headlight and nose detail from 1-2 o'clock low |
 | 7 | `wide_front_3q_left` | front 3/4 LEFT wide (mirror of shot 1) |
 | 8 | `wide_dead_front` | dead-front hero symmetric |
 
