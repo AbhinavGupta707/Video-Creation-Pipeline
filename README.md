@@ -4,7 +4,7 @@ Turns AI-generated car stills into cinematic Instagram Reels — with depth-awar
 
 ## What it does
 
-Takes N AI-generated still images of a car and outputs a 1080x1920 24fps vertical video where every shot mimics the camera motion of a reference video. The pipeline:
+Takes AI-generated still images of a car and outputs a 1080x1920 24fps vertical video where every shot mimics the camera motion of a reference video. The pipeline:
 
 1. Analyzes a reference video with optical flow to extract per-shot camera motion (direction, speed, zoom)
 2. Computes monocular depth maps (Depth Anything v2) for each still
