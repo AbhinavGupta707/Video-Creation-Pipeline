@@ -1,0 +1,14 @@
+# Core computer vision
+opencv-python==4.13.0.92
+numpy==2.0.2
+
+# Depth estimation (Depth Anything v2)
+torch==2.8.0
+transformers==4.57.6
+
+# Audio beat detection
+librosa==0.11.0
+
+# ffmpeg is a system dependency — install separately:
+#   macOS:  brew install ffmpeg
+#   Ubuntu: sudo apt install ffmpeg

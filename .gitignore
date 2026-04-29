@@ -51,3 +51,6 @@ out/
 # Temporary files
 /tmp/
 *.tmp
+
+# Internal session context (not for public repo)
+.claude_context
