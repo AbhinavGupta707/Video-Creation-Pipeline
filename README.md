@@ -97,24 +97,41 @@ See `pipeline/README.md` for the full analysis workflow.
 
 ```
 pipeline/
-  render_v2.py          — core renderer: sub-pixel motion + depth parallax + filters
-  compute_depth.py      — Depth Anything v2 wrapper, outputs .npy depth maps
-  audio_sync.py         — librosa beat detection + shot-to-beat alignment
-  generate_prompts.py   — generates AI image prompts from a creative brief
-  make_video.sh         — production CLI: orchestrates the full pipeline
-  motion_table.json     — per-shot camera motion ground truth (wine ferrari)
-  per_shot_config.json  — per-shot tuning (scale, parallax intensity, filters)
-  BLUEPRINT.md          — full technical spec (renderer math, decision trees)
+  render_v2.py              — core renderer: sub-pixel motion + depth parallax + filters
+  compute_depth.py          — Depth Anything v2 wrapper, outputs .npy depth maps
+  generate_prompts.py       — generates AI image prompts from a creative brief
+  generate_motion.py        — builds motion_table.json from a brief
+  render_brief.py           — end-to-end render from a brief config
+  make_video.sh             — production CLI: orchestrates the full pipeline
+  analyze_video.py          — optical flow analysis on a reference video
+  analyze_and_render.sh     — combined analyze + render workflow
+  batch_analyze.py          — batch analysis across multiple reference videos
+  motion_table.json         — per-shot camera motion ground truth (wine ferrari)
+  per_shot_config.json      — per-shot tuning (scale, parallax intensity, filters)
+  test_stills/              — demo stills (upscaled originals, stand-ins for AI stills)
+
+docs/
+  BLUEPRINT.md              — full technical spec: renderer math, decision trees, failure modes
+  ROADMAP.md                — 7-phase plan from wine ferrari to full production system
+  AUDIO_SYNC_RESEARCH.md    — deep-dive: beat detection, BPM strategy, drop alignment
+  BRAINSTORM_PROCESS.md     — creative brief schema and LLM conversation flow
 
 briefs/
-  wine_czinger_21c/     — example brief with prompts, reference images, motion config
+  wine_czinger_21c/         — example brief: Czinger 21C, with prompts, refs, motion config
 
-Audio/
-  audio_timings_master.json   — beat timestamps for included reference tracks
+audio/
+  audio_timings_master.json — beat timestamps for included reference tracks
+  *.mp3                     — reference audio tracks
 
-ROADMAP.md              — 7-phase plan from wine ferrari to full production system
-AUDIO_SYNC_RESEARCH.md  — deep-dive: beat detection, BPM strategy, drop alignment
-BRAINSTORM_PROCESS.md   — creative brief schema and LLM conversation flow
+reference_analysis/
+  build_library.py          — builds a shot library from reference video collection
+  extract_shots.py          — scene detection and frame extraction
+  analyze_shallow.py        — lightweight motion analysis pass
+  shot_library.json         — indexed shot library from reference videos
+
+scripts/
+  download_instagram_reels.py          — download reference reels by URL
+  download_instagram_reels_mac_videos.py — macOS Photos-aware variant
 ```
 
 ## Key technical decisions
