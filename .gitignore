@@ -54,3 +54,18 @@ out/
 
 # Internal session context (not for public repo)
 .claude_context
+
+# Local-only files — restored for personal use, not for public repo
+HANDOVER.md
+AUDIO_PLAN.md
+AUDIO_RESULTS.md
+PHASE_3_RESULTS.md
+REEL_RECIPE.md
+updated.csv
+audio/AUDIO_TAPS.md
+pipeline/README.md
+pipeline/motion_table_5shot.json
+pipeline/prompts.md
+pipeline/recipes.sh
+pipeline/render_smooth.py
+pipeline/test_with_originals.sh
