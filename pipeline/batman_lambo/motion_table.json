@@ -1,0 +1,129 @@
+{
+  "_comment": "Auto-generated from Batman Lamborghini Revuelto.mp4 by analyze_video.py",
+  "source_video": "videos/Batman Lamborghini Revuelto.mp4",
+  "source_resolution": [
+    720,
+    1280
+  ],
+  "source_fps": 30.0,
+  "source_duration": 13.367,
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "output_fps": 24,
+  "ai_still_resolution": [
+    2160,
+    3840
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.733,
+      "duration": 2.733,
+      "frame_count": 66,
+      "subject": "Auto-detected shot 1",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "pan left + tilt down + push-in",
+        "tx_px_1080": -15.0,
+        "ty_px_1080": 10.0,
+        "zoom_start": 1.0,
+        "zoom_end": 1.06
+      },
+      "_flow_confidence": 0.092,
+      "purpose": "auto"
+    },
+    {
+      "id": 2,
+      "start": 2.733,
+      "end": 4.633,
+      "duration": 1.9,
+      "frame_count": 46,
+      "subject": "Auto-detected shot 2",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "push-in",
+        "tx_px_1080": -0.1,
+        "ty_px_1080": 2.9,
+        "zoom_start": 1.0,
+        "zoom_end": 1.0087
+      },
+      "_flow_confidence": 0.93,
+      "purpose": "auto"
+    },
+    {
+      "id": 3,
+      "start": 4.633,
+      "end": 7.733,
+      "duration": 3.1,
+      "frame_count": 74,
+      "subject": "Auto-detected shot 3",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "pan left + pull-back",
+        "tx_px_1080": -40.0,
+        "ty_px_1080": -2.1,
+        "zoom_start": 1.0,
+        "zoom_end": 0.9892
+      },
+      "_flow_confidence": 0.462,
+      "purpose": "auto"
+    },
+    {
+      "id": 4,
+      "start": 7.733,
+      "end": 9.933,
+      "duration": 2.2,
+      "frame_count": 53,
+      "subject": "Auto-detected shot 4",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "tilt down + push-in",
+        "tx_px_1080": -0.6,
+        "ty_px_1080": 17.1,
+        "zoom_start": 1.0,
+        "zoom_end": 1.0366
+      },
+      "_flow_confidence": 0.702,
+      "purpose": "auto"
+    },
+    {
+      "id": 5,
+      "start": 9.933,
+      "end": 11.533,
+      "duration": 1.6,
+      "frame_count": 38,
+      "subject": "Auto-detected shot 5",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "tilt up + push-in",
+        "tx_px_1080": -0.1,
+        "ty_px_1080": -11.8,
+        "zoom_start": 1.0,
+        "zoom_end": 1.0115
+      },
+      "_flow_confidence": 0.782,
+      "purpose": "auto"
+    },
+    {
+      "id": 6,
+      "start": 11.533,
+      "end": 13.367,
+      "duration": 1.833,
+      "frame_count": 44,
+      "subject": "Auto-detected shot 6",
+      "camera_position": "unknown",
+      "motion": {
+        "type": "pan left",
+        "tx_px_1080": -36.9,
+        "ty_px_1080": -1.8,
+        "zoom_start": 1.0,
+        "zoom_end": 0.9971
+      },
+      "_flow_confidence": 0.544,
+      "purpose": "auto"
+    }
+  ]
+}

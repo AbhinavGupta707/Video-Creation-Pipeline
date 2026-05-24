@@ -1,0 +1,37 @@
+{
+  "_comment": "Auto-generated starter config for Batman Lamborghini Revuelto.mp4. Shots with confidence < 0.7 are flagged \u2014 verify with QuickTime arrow-key frame stepping before locking.",
+  "default_motion_scale": 1.0,
+  "default_depth_intensity": 2.5,
+  "shots": {
+    "1": {
+      "motion_scale": 0.8,
+      "depth_intensity": 1.0,
+      "_note": "auto: LOW confidence (0.09), parallax disabled, motion dampened. pan left + tilt down + push-in. MANUAL TUNING REQUIRED."
+    },
+    "2": {
+      "motion_scale": 1.0,
+      "depth_intensity": 2.5,
+      "_note": "auto: high confidence (0.93), push-in"
+    },
+    "3": {
+      "motion_scale": 1.0,
+      "depth_intensity": 2.0,
+      "_note": "auto: medium confidence (0.46), parallax softened. pan left + pull-back. VERIFY."
+    },
+    "4": {
+      "motion_scale": 1.0,
+      "depth_intensity": 2.5,
+      "_note": "auto: high confidence (0.70), tilt down + push-in"
+    },
+    "5": {
+      "motion_scale": 1.0,
+      "depth_intensity": 2.5,
+      "_note": "auto: high confidence (0.78), tilt up + push-in"
+    },
+    "6": {
+      "motion_scale": 1.0,
+      "depth_intensity": 2.0,
+      "_note": "auto: medium confidence (0.54), parallax softened. pan left. VERIFY."
+    }
+  }
+}

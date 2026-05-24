@@ -27,7 +27,6 @@ reference_analysis/per_video/
 # Pipeline bulk outputs (regeneratable)
 pipeline/batch_out/
 pipeline/depth_maps/
-pipeline/batman_lambo/
 pipeline/benchmark/
 pipeline/_archive/
 pipeline/__pycache__/
@@ -36,14 +35,16 @@ pipeline/test_clips_smooth/
 pipeline/test_clips/
 pipeline/*.mp4
 
+# batman_lambo brief: keep inputs/configs/reports + depth previews; skip render variants, depth binaries, and mp4s
+pipeline/batman_lambo/renders/
+pipeline/batman_lambo/depths/*.npy
+pipeline/batman_lambo/**/*.mp4
+
 # Reference analysis thumbnails (regeneratable)
 reference_analysis/thumbs/
 
-# Brief outputs (large binaries, regeneratable)
-briefs/*/Final Images/
-briefs/*/depths/
-briefs/*/stills/
-briefs/*/Image Gen/
+# Brief outputs: keep AI images, stills, depth previews; skip raw depth binaries
+briefs/*/depths/*.npy
 
 # Rendered outputs (regeneratable)
 out/
