@@ -39,8 +39,8 @@ Generated from `pipeline/test_stills/` (upscaled originals used as stand-ins for
 **Requirements:** Python 3.9+, ffmpeg with libx264
 
 ```bash
-git clone https://github.com/Dominator0311/Car-Content-Generation
-cd Car-Content-Generation
+git clone https://github.com/AbhinavGupta707/Video-Creation-Pipeline
+cd Video-Creation-Pipeline
 
 python -m venv .venv
 source .venv/bin/activate
