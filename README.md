@@ -132,6 +132,14 @@ reference_analysis/
 scripts/
   download_instagram_reels.py          — download reference reels by URL
   download_instagram_reels_mac_videos.py — macOS Photos-aware variant
+
+reels.csv                              — 79 Instagram reel URLs used as references (title, url)
+```
+
+To fetch the reference reel set:
+
+```bash
+python scripts/download_instagram_reels.py --csv reels.csv --output-dir videos/
 ```
 
 ## Key technical decisions
